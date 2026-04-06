@@ -1,0 +1,17 @@
+[project]
+name = "inventory-optimization"
+version = "1.0.0"
+description = "End-to-end Inventory Optimization Project for Retail Analytics"
+readme = "PROJECT_GUIDE.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "streamlit>=1.32.0",
+    "plotly>=5.18.0",
+]
+
+[tool.uv]
+dev-dependencies = []
